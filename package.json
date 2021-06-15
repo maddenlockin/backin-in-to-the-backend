@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/maddenlockin/backin-in-to-the-backend#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
   }
 }
