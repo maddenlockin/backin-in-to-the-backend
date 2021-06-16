@@ -1,3 +1,4 @@
+const dotenv = require('dotenv').config();
 const backends = require('./data.js');
 const cors = require('cors');
 const express = require('express');
