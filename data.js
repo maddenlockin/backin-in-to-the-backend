@@ -1,5 +1,5 @@
 const backends = {
-    [    
+    'data': [    
         {
             'id': 1,
             'species': 'animal',
@@ -33,7 +33,10 @@ const backends = {
             'species': 'worm',
             'coating': 'mucus and debris',
             'type': 'pigbutt worm (ps, not actually a butt!)',
-            'src': 'https://critterfacts.com/wp-content/uploads/2020/11/Chaetopterus-The-Floating-Butt.jpg'
+            'src': 'https://critterfacts.com/wp-content/uploads/2020/11/Chaetopterus-The-Floating-Butt.jpg',
+            
         }
     ]
-}
+};
+
+module.exports = backends;
